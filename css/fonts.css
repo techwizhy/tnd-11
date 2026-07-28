@@ -1,0 +1,66 @@
+/* ===================================================================
+   LOCAL SELF-HOSTED WOFF2 FONTS SYSTEM
+   =================================================================== */
+
+/* Merriweather Bold (700) */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Merriweather-Bold-v2.woff2') format('woff2');
+}
+
+/* DM Sans Regular (400) */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/DM-Sans-Regular-v2.woff2') format('woff2');
+}
+
+/* DM Sans SemiBold (600) */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/DM-Sans-SemiBold-v2.woff2') format('woff2');
+}
+
+/* DM Sans Bold (700) */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/DM-Sans-Bold-v2.woff2') format('woff2');
+}
+
+/* DM Sans ExtraBold (800) */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/DM-Sans-ExtraBold-v2.woff2') format('woff2');
+}
+
+/* Fraunces Bold (700) - Preserved for ARASIYAL PAZHAGUVOM */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Fraunces-Bold.woff2') format('woff2');
+}
+
+/* Cormorant Garamond ExtraBold (800) - Preserved for Tamil Title */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/CormorantGaramond-ExtraBold.woff2') format('woff2');
+}
