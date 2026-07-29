@@ -835,28 +835,32 @@
   cursor: pointer;
   padding: 0;
   z-index: 1005;
+  flex-shrink: 0 !important;
 }
 
 .menu-toggle .bar {
   width: 100%;
   height: 2px;
-  background-color: var(--primary-dark);
+  background-color: #0F3A34;
   transition: all 0.3s ease;
   border-radius: 2px;
 }
 
-.dark-theme .menu-toggle .bar {
-  background-color: var(--gold-light);
+.dark-theme .menu-toggle .bar,
+html.dark-theme .menu-toggle .bar {
+  background-color: #F2C94C !important;
 }
 
 /* Responsiveness overrides for shared components (Navbar, Footer) */
 @media (max-width: 1024px) {
   .nav-logo-container {
     margin-right: auto;
+    min-width: 0;
   }
   
   .nav-actions {
-    margin-right: 20px;
+    margin-right: 12px;
+    flex-shrink: 0;
   }
 
   .mobile-only {
@@ -864,7 +868,8 @@
   }
   
   .menu-toggle {
-    display: flex;
+    display: flex !important;
+    flex-shrink: 0 !important;
   }
   
   .nav-links {
