@@ -2517,16 +2517,17 @@
 }
 
 .popout-card-name {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--primary-dark);
+  font-weight: 800;
+  color: #b38624;
   margin: 0;
   line-height: 1.35;
+  letter-spacing: 0.5px;
 }
 
 .dark-theme .popout-card-name {
-  color: #ffffff;
+  color: #f2c94c;
 }
 
 .footer-main-columns {
